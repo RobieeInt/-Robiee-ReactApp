@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {Success} from '../../assets';
 import {Button, Gap} from '../../components';
 
-const SuccessSignUp = () => {
+const SuccessSignUp = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Success />
@@ -14,7 +14,10 @@ const SuccessSignUp = () => {
       <Text style={styles.Text2}>Dan Nikmati Jhajhanan Sesukamu</Text>
       <Gap height={30} />
       <View style={styles.ButtonContainer}>
-        <Button text="Temukan Jhajhanan" />
+        <Button
+          text="Temukan Jhajanan Yuk"
+          onPress={() => navigation.replace('MainApp')}
+        />
       </View>
     </View>
   );
