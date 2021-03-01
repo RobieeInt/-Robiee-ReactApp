@@ -22,7 +22,7 @@ const SplashScreen = ({navigation}) => {
       <View style={{height: 20}} />
       <Text
         style={{fontSize: 32, color: '#020202', fontFamily: 'Poppins-Medium'}}>
-        JhaJhan
+        Jhajan
       </Text>
       <View style={{marginTop: 100}}>
         <Text>By Ujang</Text>

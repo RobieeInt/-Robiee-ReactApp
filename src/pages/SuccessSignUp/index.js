@@ -11,7 +11,7 @@ const SuccessSignUp = ({navigation}) => {
       <Text style={styles.Text1}>Sukses Terdaftar</Text>
       <Gap height={6} />
       <Text style={styles.Text2}>Sekarang Kamu Bisa Pilih</Text>
-      <Text style={styles.Text2}>Dan Nikmati Jhajhanan Sesukamu</Text>
+      <Text style={styles.Text2}>Dan Nikmati Jhajanan Sesukamu</Text>
       <Gap height={30} />
       <View style={styles.ButtonContainer}>
         <Button

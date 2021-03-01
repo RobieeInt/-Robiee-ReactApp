@@ -12,17 +12,18 @@ import {
   SplashScreen,
   SuccessSignUp,
 } from '../pages';
+import {BottomNavigator} from '../components';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const MainApp = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator tabBar={(props) => <BottomNavigator {...props} />}>
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Order" component={Order} />
       <Tab.Screen name="Profile" component={Profile} />
-      <Tab.Screen name="Kim" component={Kim} />
+      <Tab.Screen name="Robby" component={Kim} />
     </Tab.Navigator>
   );
 };
