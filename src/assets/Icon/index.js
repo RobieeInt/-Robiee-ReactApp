@@ -5,6 +5,8 @@ import IconProfileOff from './ProfileOff';
 import IconProfileOn from './ProfileOn';
 import IconHomeOn from './HomeOn.svg';
 import IconHomeOff from './IconHome.svg';
+import StarOn from './StarOn.svg';
+import StarOff from './StarOff.svg';
 
 export {
   ArrowBack,
@@ -14,4 +16,6 @@ export {
   IconProfileOn,
   IconHomeOn,
   IconHomeOff,
+  StarOff,
+  StarOn,
 };

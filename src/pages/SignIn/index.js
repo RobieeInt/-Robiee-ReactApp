@@ -11,7 +11,7 @@ const SignIn = ({navigation}) => {
         <Gap height={16} />
         <TextInput label="Password" placeholder="Masukkan Password" />
         <Gap height={24} />
-        <Button text="Masuk" />
+        <Button text="Masuk" onPress={() => navigation.replace('MainApp')} />
         <Gap height={12} />
         <Button
           text="Daftar Baru"
