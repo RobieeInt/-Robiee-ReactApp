@@ -7,6 +7,10 @@ import Home from './Home';
 import Order from './Order';
 import Profile from './Profile';
 import Kim from './Kim';
+import JhajanDetail from './JhajanDetail';
+import OrderSummary from './OrderSummary';
+import SuccessOrder from './SuccessOrder';
+import OrderDetail from './OrderDetail';
 
 export {
   SplashScreen,
@@ -18,4 +22,8 @@ export {
   Home,
   Order,
   Kim,
+  JhajanDetail,
+  OrderSummary,
+  SuccessOrder,
+  OrderDetail,
 };
