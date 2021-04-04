@@ -6,22 +6,34 @@ import {Gap, HomeProfile, HomeTabSec, JhajanCard} from '../../components';
 const Home = () => {
   return (
     <View style={styles.page}>
-      <HomeProfile />
-      <View>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          <View style={styles.jhajanCardContainer}>
-            <Gap width={24} />
-            <JhajanCard image={Jajanan3} />
-            <JhajanCard image={Jajanan2} />
-            <JhajanCard image={Jajanan1} />
-            <JhajanCard image={Jajanan4} />
-          </View>
-        </ScrollView>
-      </View>
-      <View style={styles.tabContainer}>
-        <HomeTabSec />
-      </View>
-      <View></View>
+      <ScrollView>
+        <HomeProfile />
+        <View>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <View style={styles.jhajanCardContainer}>
+              <Gap width={24} />
+              <JhajanCard image={Jajanan3} />
+              <JhajanCard image={Jajanan2} />
+              <JhajanCard image={Jajanan1} />
+              <JhajanCard image={Jajanan4} />
+            </View>
+          </ScrollView>
+        </View>
+        <View style={styles.tabContainer}>
+          <HomeTabSec />
+        </View>
+        <View>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <View style={styles.jhajanCardContainer}>
+              <Gap width={24} />
+              <JhajanCard image={Jajanan3} />
+              <JhajanCard image={Jajanan2} />
+              <JhajanCard image={Jajanan1} />
+              <JhajanCard image={Jajanan4} />
+            </View>
+          </ScrollView>
+        </View>
+      </ScrollView>
     </View>
   );
 };
